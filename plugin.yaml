@@ -1,0 +1,9 @@
+name: web-deepseek
+version: 1.1.1
+description: "DeepSeek 官方 Search + Fetch 后端，保留搜索质量元数据，复用 DEEPSEEK_API_KEY"
+author: admin
+kind: backend
+provides_web_providers:
+  - deepseek
+requires_env:
+  - DEEPSEEK_API_KEY
